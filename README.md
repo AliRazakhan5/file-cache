@@ -36,7 +36,7 @@ After installing the package, publish the configuration file using the following
 
 php artisan vendor:publish --provider="AliRaza\FileCache\Providers\FileCacheServiceProvider"
 
-This will publish a configuration file at config/filecache.php, allowing you to customize the cache directory. Ensure that the service provider is registered automatically if you’ve set up auto-discovery. If not, manually add it to the providers array in config/app.php:
+This will publish a configuration file at config/filecache.php, allowing you to customize the cache directory. Ensure that the service provider is registered automatically. If not, manually add it to the providers array in config/app.php:
 
 // package Service Providers
 
