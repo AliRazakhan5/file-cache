@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AliRaza\\FileCache\\": "vendor/src/"
+            "AliRaza\\FileCache\\": "src/"
         }
     },
     "authors": [
