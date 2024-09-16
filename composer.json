@@ -1,5 +1,5 @@
 {
-    "name": "ali/file-cache",
+    "name": "ali-raza/file-cache",
     "type": "library",
     "description": "A file cache package for Laravel.",
     "keywords": ["framework", "laravel"],
