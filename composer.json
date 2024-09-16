@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AliRaza\\FileCache\\": "src/"
+            "AliRaza\\FileCache\\": "vendor/src/"
         }
     },
     "authors": [
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Providers\\FileCacheServiceProvider"
+                "AliRaza\\FileCache\\Providers\\FileCacheServiceProvider"
             ]
         }
     },
