@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Providers\\FileCacheServiceProvider"
+                "AliRaza\\FileCache\\Providers\\FileCacheServiceProvider"
             ]
         }
     },
