@@ -93,6 +93,7 @@ class FileCache implements Store
         foreach ($files as $file) {
             unlink($file);
         }
+        return true;
     }
 
     public function getPrefix()
